@@ -50,7 +50,7 @@ This React frontend template not only boasts a robust security framework but als
 
 You need Node.js installed on your machine.
 
-This frontend can be use with this [backend](https://github.com/alexdeloire/backend-template).
+This frontend can be use with this [backend](https://github.com/alexdeloire/backend_template).
 
 ## Running the project
 <sup>[(Back to top)](#table-of-contents)</sup>
