@@ -51,7 +51,7 @@ Ce modèle frontend React non seulement offre un cadre de sécurité robuste, ma
 
 Il est nécessaire d'avoir installé Node.js sur votre machine.
 
-Ce frontend peut être utilisé avec ce [backend](https://github.com/alexdeloire/backend_template).
+Ce frontend peut être utilisé avec ce [backend](https://github.com/alexdeloire/backend-template).
 
 ## Lancement
 <sup>[(Retour en haut)](#table-des-matières)</sup>
