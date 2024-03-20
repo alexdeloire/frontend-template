@@ -36,7 +36,7 @@ const ItemList = () => {
 
     return (
         <article>
-            <h2>Item List</h2>
+            <h1 style={{padding: "20px"}}>Item List</h1>
             {items?.length
                 ? (
                     <ul>

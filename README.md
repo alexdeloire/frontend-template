@@ -99,9 +99,6 @@ The project is structured as follows:
     ├── index.css
     ├── index.js
     ├── styles
-    │   ├── admin.css
-    │   ├── festival-info.css
-    │   └── poste-referent.css
     └── views
         ├── Admin.js
         ├── ChangePassword.js

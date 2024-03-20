@@ -2,7 +2,10 @@
 const UserContent = () => {
 
     return (
-        <div>User Content</div>
+        <div>
+            <h1 style={{padding: "20px"}}>User Page</h1>
+            <div>User Content</div>
+        </div>
     )
 }
 

@@ -81,7 +81,7 @@ const Login = () => {
     return (
 
         <div className="content login-form">
-            <h1>Connectez-vous</h1>
+            <h1>Log In</h1>
             <form onSubmit={handleSubmit}>
                 <div className='form-group'>
                     <label htmlFor="username">Username</label>

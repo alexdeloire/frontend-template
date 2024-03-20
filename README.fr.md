@@ -100,9 +100,6 @@ Voici la structure du projet :
     ├── index.css
     ├── index.js
     ├── styles
-    │   ├── admin.css
-    │   ├── festival-info.css
-    │   └── poste-referent.css
     └── views
         ├── Admin.js
         ├── ChangePassword.js
