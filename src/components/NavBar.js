@@ -27,7 +27,7 @@ const NabBar = () => {
                         
                     }
                 </div>
-                {auth?.accessToken ?  <button onClick={signOut}>Se déconnecter</button>
+                {auth?.accessToken ?  <button onClick={signOut}>Log out</button>
                     : <Link to="/login">Log In</Link>}
             </nav>
             <Outlet />

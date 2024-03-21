@@ -89,7 +89,7 @@ const Profile = () => {
             </div>
 
             <button className="send-button-mu" style={{ marginRight: '10px' }} onClick={() => navigate('/change-password')}>
-                Changer Mot de Passe
+                Change Password
             </button>
 
             {!isEditMode && <button className="send-button-mu" onClick={handleEditClick}>Edit</button>}

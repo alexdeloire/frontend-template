@@ -21,7 +21,7 @@ const ChangePassword = () => {
 
     const handleSubmit = async () => {
         if (password !== confirmPassword) {
-            setError('Mots de Passe ne correspondent pas');
+            setError('Passwords do not match');
         } else {
             try {
                 // send password to the server
@@ -43,13 +43,13 @@ const ChangePassword = () => {
 
     return (
         <div>
-            <h2>Changer Mot de Passe</h2>
+            <h2>Change password</h2>
 
             {!successMessage && (
                 <div>
                     <div className='form-group'>
                         <label>
-                            Entrer Nouveau Mot de Passe:
+                            Enter New Password:
                         </label>
                         <input
                             type="password"
@@ -59,7 +59,7 @@ const ChangePassword = () => {
                     </div>
                     <div className='form-group'>
                         <label>
-                            Confirmer Nouveau Mot de Passe:
+                            Confirm New Password:
                         </label>
                         <input
                             type="password"
@@ -68,13 +68,13 @@ const ChangePassword = () => {
                         />
                     </div>
                     {error && <div style={{ color: 'red' }}>{error}</div>}
-                    <button className="send-button-mu" onClick={handleSubmit}>Changer Mot de Passe</button>
+                    <button className="send-button-mu" onClick={handleSubmit}>Change Password</button>
                 </div>
             )}
 
             {successMessage && (
                 <div>
-                    <p>Mot de passe changé avec succès!</p>
+                    <p>Password changed successfully!</p>
                     <button className="send-button-mu" onClick={handleGoToProfile}>Go to Profile</button>
                 </div>
             )}
